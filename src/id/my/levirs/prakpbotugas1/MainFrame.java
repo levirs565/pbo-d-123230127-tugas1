@@ -112,6 +112,8 @@ public class MainFrame extends JFrame {
         
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Input Data");
+        setLocationRelativeTo(null);
         
         mData = new ArrayList<Orang>();
         

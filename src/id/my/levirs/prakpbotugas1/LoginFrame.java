@@ -63,6 +63,8 @@ public class LoginFrame extends JFrame {
     
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Login");
+        setLocationRelativeTo(null);
          
         mLoginButton.addActionListener((e) -> {
             if (!mUsernameTextField.getText().equalsIgnoreCase("pbo") &&
